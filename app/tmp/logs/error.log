@@ -1,0 +1,33 @@
+2014-12-13 03:56:35 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /dimsumapp/add
+Stack Trace:
+#0 C:\xampp\htdocs\dimsumapp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-13 04:12:27 Error: [MissingViewException] View file "C:\xampp\htdocs\dimsumapp\app\View\Dimsums\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\dimsumapp\\app\\View\\Dimsums\\json\\add.ctp',
+)
+Request URL: /dimsumapp/dimsums/add.json
+Stack Trace:
+#0 C:\xampp\htdocs\dimsumapp\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\dimsumapp\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\xampp\htdocs\dimsumapp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\dimsumapp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DimsumsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\dimsumapp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-13 04:25:35 Error: [MissingViewException] View file "C:\xampp\htdocs\dimsumapp\app\View\Dimsums\json\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\dimsumapp\\app\\View\\Dimsums\\json\\add.ctp',
+)
+Request URL: /dimsumapp/dimsums/add.json
+Stack Trace:
+#0 C:\xampp\htdocs\dimsumapp\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\dimsumapp\lib\Cake\Controller\Controller.php(954): JsonView->render(NULL, NULL)
+#2 C:\xampp\htdocs\dimsumapp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\dimsumapp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DimsumsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\dimsumapp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
